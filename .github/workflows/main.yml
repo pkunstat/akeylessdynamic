@@ -3,7 +3,7 @@ name: Fetch Postgres Dynamic Secrets
 jobs:
   fetch_postgres_dynamic_secrets:
     runs-on: self-hosted
-    name: Fetch Postgres Dynamic Secrets
+    name: Fetch Postgres Dynamic Secrets1
     permissions:
       id-token: write
       contents: read
