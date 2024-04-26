@@ -28,7 +28,7 @@ jobs:
           echo "$GITHUB_ENV"          
       - name: Verify Vars
         run: >
-          echo "host: ${{ env.POSTGRES_PASSWORD }}" >> secrets.txt
+          echo "host: ${{ env.POSTGRES_PASSWORD }}"
           
                
 
