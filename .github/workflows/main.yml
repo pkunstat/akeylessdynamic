@@ -1,7 +1,7 @@
 name: Fetch Postgres Dynamic Secrets
-'on': push
-on: 
-workflow_dispatch:
+
+on:
+   workflow_dispatch
 jobs:
   fetch_postgres_dynamic_secrets:
     runs-on: self-hosted
